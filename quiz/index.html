@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <main class="quiz">
+        <header class="quiz__header">
+            <h1 class="quiz__title">Quiz</h1>
+            <p class="quiz__subtitle">Teste seu conhecimento com nosso quiz!</p>
+        </header>
+        <div class="quiz__score">
+            <p class="quiz__score-label">Pontuação: <span id="score" class="quiz__score-value">0</span></p>
+        </div>
+
+        <button id="start-quiz" class="quiz__start">
+            Iniciar Quiz
+        </button>
+
+        <section class="quiz__question">
+            <p class="quiz__question-number">Questão 1</p>
+            <p class="quiz__question-text">Qual é a capital do Brasil?</p>
+            <div class="quiz__answers">
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">A</span>
+                    <p class="quiz__option-text">São Paulo</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">B</span>
+                    <p class="quiz__option-text">Rio de Janeiro</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--correct" type="button">
+                    <span class="quiz__option-letter">C</span>
+                    <p class="quiz__option-text">Brasília</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">D</span>
+                    <p class="quiz__option-text">Belo Horizonte</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">E</span>
+                    <p class="quiz__option-text">Curitiba</p>
+                </button>
+            </div>
+        </section>
+        <section class="quiz__question">
+            <p class="quiz__question-number">Questão 2</p>
+            <p class="quiz__question-text">Qual é a capital da França?</p>
+            <div class="quiz__answers">
+                <button disabled class="quiz__option quiz__option--correct" type="button">
+                    <span class="quiz__option-letter">A</span>
+                    <p class="quiz__option-text">Paris</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">B</span>
+                    <p class="quiz__option-text">Lyon</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">C</span>
+                    <p class="quiz__option-text">Marseille</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">D</span>
+                    <p class="quiz__option-text">Nantes</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">E</span>
+                    <p class="quiz__option-text">Lille</p>
+                </button>
+            </div>
+        </section>
+        <section class="quiz__question">
+            <p class="quiz__question-number">Questão 3</p>
+            <p class="quiz__question-text">Qual é a capital da Itália?</p>
+            <div class="quiz__answers">
+                <button disabled class="quiz__option quiz__option--correct" type="button">
+                    <span class="quiz__option-letter">A</span>
+                    <p class="quiz__option-text">Roma</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">B</span>
+                    <p class="quiz__option-text">Milão</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">C</span>
+                    <p class="quiz__option-text">Veneza</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">D</span>
+                    <p class="quiz__option-text">Torino</p>
+                </button>
+                <button disabled class="quiz__option quiz__option--wrong" type="button">
+                    <span class="quiz__option-letter">E</span>
+                    <p class="quiz__option-text">Palermo</p>
+                </button>
+            </div>
+        </section>
+
+        <button class="quiz__btn__ quiz__btn--finish" id="finish-quiz" type="button">
+            Finalizar Quiz
+        </button>
+    </main>
+    <script src="script/quiz.js"></script>
+</body>
+
+</html>
